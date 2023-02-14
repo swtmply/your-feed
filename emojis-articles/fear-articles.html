@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Feed - Fear</title>
+    <link href="../output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header
+      class="flex justify-between px-8 py-4 items-center bg-white shadow-md"
+    >
+      <h1 class="font-bold text-4xl">
+        <span class="text-blue-600">Your</span>Feed
+      </h1>
+      <nav>
+        <ul class="flex gap-8 text-lg">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../about-us.html">About Us</a></li>
+          <li><a href="../contact-us.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="max-w-[80%] m-auto flex flex-col gap-6 my-8">
+      <h2 class="font-bold text-2xl">Fear Articles</h2>
+      <div class="grid grid-cols-3 gap-4">
+        <a
+          href="https://economictimes.indiatimes.com/news/international/world-news/death-toll-tops-21000-from-turkey-syria-quake-as-hopes-fade/articleshow/97786792.cms"
+          class="hover:scale-110 duration-100 group relative shadow-lg rounded-lg"
+          target="_blank"
+        >
+          <img
+            src="data:image/jpeg;base64,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"
+            alt="fear articles"
+            class="aspect-video w-full object-cover rounded-lg shadow-lg"
+          />
+          <div class="duration-150 p-4 flex flex-col gap-2">
+            <span
+              class="px-2 py-1 uppercase text-xs bg-green-200 text-green-500 rounded-full font-bold max-w-max"
+              >Health</span
+            >
+            <p class="text-xl font-bold">
+              Death toll tops 21,000 from Turkey-Syria quake as hopes fade
+            </p>
+          </div>
+        </a>
+        <a
+          href="https://economictimes.indiatimes.com/magazines/panache/even-a-glass-of-alcohol-can-lead-to-several-health-scares-claims-who/articleshow/97043812.cms"
+          class="hover:scale-110 duration-100 group relative shadow-lg rounded-lg"
+          target="_blank"
+        >
+          <img
+            src="https://img.etimg.com/thumb/msid-97043885,width-650,height-488,imgsize-50156,,resizemode-75/yes-even-a-glass-of-alcohol-can-be-devastating-for-your-health.jpg"
+            alt="fear articles"
+            class="aspect-video w-full object-cover rounded-lg shadow-lg"
+          />
+          <div class="duration-150 p-4 flex flex-col gap-2">
+            <span
+              class="px-2 py-1 uppercase text-xs bg-green-200 text-green-500 rounded-full font-bold max-w-max"
+              >Health</span
+            >
+            <p class="text-xl font-bold">
+              Even a glass of alcohol is enough to cause several health scares:
+              WHO
+            </p>
+          </div>
+        </a>
+        <a
+          href="https://economictimes.indiatimes.com/magazines/panache/sedentary-lifestyle-increases-risk-of-cardiovascular-diseases-6-ways-to-avoid-being-a-couch-potato/articleshow/96969577.cms"
+          class="hover:scale-110 duration-100 group relative shadow-lg rounded-lg"
+          target="_blank"
+        >
+          <img
+            src="https://img.etimg.com/thumb/msid-96969572,width-650,height-488,imgsize-54278,,resizemode-75/lead-pic-canva.jpg"
+            alt="fear articles"
+            class="aspect-video w-full object-cover rounded-lg shadow-lg"
+          />
+          <div class="duration-150 p-4 flex flex-col gap-2">
+            <span
+              class="px-2 py-1 uppercase text-xs bg-green-200 text-green-500 rounded-full font-bold max-w-max"
+              >Health</span
+            >
+            <p class="text-xl font-bold">
+              Sedentary lifestyle increases risk of cardiovascular diseases: 6
+              ways to avoid being a couch potato
+            </p>
+          </div>
+        </a>
+        <a
+          href="https://abcnews.go.com/Sports/10-craziest-sports-stories-2022/story?id=95363356"
+          class="hover:scale-110 duration-100 group relative shadow-lg rounded-lg"
+          target="_blank"
+        >
+          <img
+            src="https://s.abcnews.com/images/Sports/brian-robinson_hpEmbed_20221222-132350_3x2_992.jpg"
+            alt="fear articles"
+            class="aspect-video w-full object-cover rounded-lg shadow-lg"
+          />
+          <div class="duration-150 p-4 flex flex-col gap-2">
+            <span
+              class="px-2 py-1 uppercase text-xs bg-orange-200 text-orange-500 rounded-full font-bold max-w-max"
+              >Sports</span
+            >
+            <p class="text-xl font-bold">
+              Brian Robinson Jr. returns to play 42 days after being shot
+              multiple times
+            </p>
+          </div>
+        </a>
+        <a
+          href="https://www.theguardian.com/world/2023/feb/12/nz-north-island-braces-for-potentially-devastating-weather-as-cyclone-gabrielle-barrels-toward-region"
+          class="hover:scale-110 duration-100 group relative shadow-lg rounded-lg"
+          target="_blank"
+        >
+          <img
+            src="https://i.guim.co.uk/img/media/848349a8e48d118f82c511110550e7bc9a171143/0_125_3770_2263/master/3770.jpg?width=700&quality=85&auto=format&fit=max&s=126d0b73b639071caa2bd46b08c182de"
+            alt="fear articles"
+            class="aspect-video w-full object-cover rounded-lg shadow-lg"
+          />
+          <div class="duration-150 p-4 flex flex-col gap-2">
+            <span
+              class="px-2 py-1 uppercase text-xs bg-blue-200 text-blue-500 rounded-full font-bold max-w-max"
+              >Weather</span
+            >
+            <p class="text-xl font-bold">
+              Cyclone Gabrielle: evacuations urged as ‘potentially devastating’
+              storm lashes New Zealand
+            </p>
+          </div>
+        </a>
+        <a
+          href="https://www.theguardian.com/world/2023/jan/28/new-zealand-flooding-auckland-deaths-missing-record-rainfall"
+          class="hover:scale-110 duration-100 group relative shadow-lg rounded-lg"
+          target="_blank"
+        >
+          <img
+            src="https://i.guim.co.uk/img/media/76ca03da2001317a174db2059b479ee471fe9b68/196_0_3577_2148/master/3577.jpg?width=700&quality=85&auto=format&fit=max&s=8f319168f1c6a06e19770e9273cdf772"
+            alt="fear articles"
+            class="aspect-video w-full object-cover object-top rounded-lg shadow-lg"
+          />
+          <div class="duration-150 p-4 flex flex-col gap-2">
+            <span
+              class="px-2 py-1 uppercase text-xs bg-blue-200 text-blue-500 rounded-full font-bold max-w-max"
+              >Weather</span
+            >
+            <p class="text-xl font-bold">
+              New Zealand flooding: three dead and one missing as Auckland hit
+              by record rainfall
+            </p>
+          </div>
+        </a>
+      </div>
+    </main>
+  </body>
+</html>

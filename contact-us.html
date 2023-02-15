@@ -7,17 +7,23 @@
     <title>Your Feed - Contact Us</title>
     <link href="./output.css" rel="stylesheet" />
   </head>
-  <body>
-    <header
-      class="flex justify-between px-8 py-4 items-center bg-white shadow-md"
-    >
+  <body class="text-white">
+    <header class="flex justify-between px-8 py-4 items-center shadow-md">
       <h1 class="font-bold text-4xl">
-        <span class="text-blue-600">Your</span>Feed
+        <a href="index.html"> <span class="text-blue-600">Your</span>Feed </a>
       </h1>
       <nav>
         <ul class="flex gap-8 text-lg">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about-us.html">About Us</a></li>
+          <li
+            class="hover:scale-125 duration-100 hover:underline hover:underline-offset-4"
+          >
+            <a href="index.html">Home</a>
+          </li>
+          <li
+            class="hover:scale-125 duration-100 hover:underline hover:underline-offset-4"
+          >
+            <a href="about-us.html">About Us</a>
+          </li>
           <li><a href="#" class="font-semibold">Contact Us</a></li>
         </ul>
       </nav>
@@ -25,11 +31,6 @@
 
     <main class="max-w-[80%] m-auto my-16">
       <div class="flex gap-2">
-        <img
-          src="contact-us-pubmat.png"
-          alt="contact us pubmat"
-          class="w-1/2 hidden md:block"
-        />
         <div class="gap-4 flex flex-col my-12 text-xl">
           <h2 class="font-bold text-4xl mb-4">Contact Us</h2>
           <p>
@@ -47,5 +48,12 @@
         </div>
       </div>
     </main>
+
+    <div class="fixed top-0 min-h-screen w-screen -z-10 bg-gray-900/80"></div>
+    <img
+      src="images/about-contact-us.jpg"
+      alt="about us pubmat"
+      class="fixed top-0 min-h-screen w-screen -z-20"
+    />
   </body>
 </html>
